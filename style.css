@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir Next, Helvetica,Arial,sans-serif
+}
+
+.lighting-wrapper {
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(rgb(50, 102, 255) 0%, rgb(3, 17, 52) 100%) repeat scroll 0% 0%;
+}
+
+.lighting-content-wrapper {
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+}
+
+
+.heading h2 {
+  font-size: 110px;
+  font-weight: 800;
+  line-height: 120px;
+  width: 740px;
+}
+
+.lighting-divider {
+  width: 80%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding-left: 7px;
+}
+
+.lighting-images-wrapper {
+  display: flex;
+}
+
+.lighting-image-slider {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+}
+
+.lighting-divider span {
+  background:linear-gradient(90deg, #FF00FF 0%, #FF6B00 33%, #D2F400 67%, #00CEFF 100%);
+  margin: 20px 0;
+  width: 79px;
+  height: 2px;
+  display: inline-block;
+  opacity: 1;
+}
+
+.top-row .description {
+  font-size: 16px;
+  font-weight: 400;
+  width: 680px;
+  padding-left: 7px;
+}
+
+h3 {
+  background: #fff;
+  color: #3498db;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+
+.lighting-info-wrapper {
+  width: 300px;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: 150px;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.lighting-info {
+  -webkit-flex: 1 1;
+  flex: 1 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  padding: 0 0 10px 40px;
+}
+
+.lighting-info {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.lighting-info.active {
+  color: #FFFFFF;
+}
+
+.lighting-info.active .info-divider{
+  background: rgba(0, 0, 0, 0) linear-gradient(rgb(255, 0, 255) 0%, rgb(255, 107, 0) 33%, rgb(210, 244, 0) 67%, rgb(0, 206, 255) 100%) repeat scroll 0% 0%;
+}
+
+.info-divider {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: hsla(0,0%,100%,.38);
+    top: 0;
+    left: 0;
+    content: "";
+}
+
