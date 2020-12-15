@@ -118,3 +118,7 @@ h3 {
 .top-row .heading, .top-row .description {
   color: #ffffff;
 }
+
+.top-row {
+  padding-top: 40px;
+}
